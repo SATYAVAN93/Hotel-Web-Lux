@@ -1,0 +1,340 @@
+
+/* TABLE OF CONTANT */
+/* ..................
+1. General
+2. Navbar
+3. Slider
+4. About
+5. Room
+6. Services
+7. Team
+8. Price
+9. Blog
+10.Footer
+.................... */
+*, ::after, ::before { box-sizing: border-box;}
+
+h1,h2,h3 {font-family: "Briem Hand", cursive;}
+
+/* ===========================header start============================== */
+.header .collapse form .my-button{
+    padding: 5px 27px;
+    text-align: center;
+    border: 1px solid #e9b94b;
+    background: none;
+}
+
+.header .collapse .my-button:hover{
+    background: rgb(152, 131, 86);
+    color: #fff;
+
+}
+.header .navbar{border-bottom-color:#e9b94b; border-bottom: 0.3px solid #e9b94b;}
+.header span{color: rgb(233, 185, 75);}
+
+.hero {
+    position: absolute;
+    display: flex;
+    margin-top: -80px;
+    z-index: -5;
+}
+.hero .carousel-inner .carousel-item img{width: 100%;}
+
+.hero::after{
+    content: "";
+    background: 
+    color-mix(in srgb, rgb(18, 15, 5), transparent 40%);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+.header .container-fluid .collapse .navbar-nav .nav-item a{color: #dbdbdb;}
+
+.header .container-fluid .collapse .navbar-nav .nav-item a:hover{color: #fff;}
+
+.container .row .col-lg-12 .header-caption{ padding: 40px;}
+
+.container .row .col-lg-12 .header-caption p{ font-size: 18px;color: #e9b94b;
+}
+
+.container .row .col-lg-12 .header-caption h1{font-size: 60px; font-weight: 300;}
+
+.container .row .col-lg-12 .d-flex{
+    border: 1px solid #e9b94b;
+    padding: 5px;
+    background:  rgba(130, 105, 40, 0.139);
+    margin-top: 110px;
+}
+
+.container .row .col-lg-12 .d-flex form{border: 1px solid rgb(233, 185, 75);}
+
+.container .row .col-lg-12 .d-flex input{
+    background: none;
+}
+/* ===========================header start============================== */
+
+/* ===========================Luxury start============================== */
+.Luxury{background: #13151b;}
+
+.Luxury .container-fluid .row .col-lg-6 .my-images img{
+    width: 450px;
+}
+.Luxury .container-fluid .row .col-lg-6 .my-images-2{margin-top: -343px;margin-left: 310px;}
+
+.Luxury .container-fluid .row .col-lg-6 .my-images-2 img{width: 300px; }
+
+.Luxury .container-fluid .row .col-lg-6 .caption .my-word-1{font-size: 16px; color: #e9b94b;}
+
+.Luxury .container-fluid .row .col-lg-6 .caption .my-word{font-size: 16px; color: #fff; line-height: 46px;}
+
+.Luxury .container-fluid .row .col-lg-6 .caption h2{font-size: 65px; font-weight: 300; color: #fff;}
+
+.Luxury .container-fluid .row .col-lg-6 .caption a{
+    text-decoration: none; 
+    border: 1px solid #e9b94b; 
+    padding: 15px 52px;
+    color: #c7c7c7;
+}
+.Luxury .container-fluid .row .col-lg-6 .caption a:hover{
+    background: rgb(152, 131, 86);
+    color: #fff;
+
+}
+
+/* ===========================Luxury end================================ */
+
+/* ===========================Video end================================ */
+
+.video-section img{
+    width: 100%;
+    height: 560px;
+}
+.video-section  a i{
+    border: 1px solid red;
+    padding: 50px;
+    
+}
+.video-section .style-img img{
+    margin-top: -560px;
+    width: 160px;
+    height: 150px;
+    margin-left: 600px;
+}
+.style-img{background: #13151b;}
+/* ===========================Video end================================ */
+
+/* ===========================Apartment start================================ */
+.Apartment{background:#13151b;}
+.Apartment h1{color: #e9b94b; font-size: 55px; font-weight: 300; }
+.Apartment p{color: #e9b94b; font-size: 17px;}
+/* .Apartment .img-box a{
+    text-decoration: none; 
+    padding: 15px 52px;
+    color: #c7c7c7;
+    background: #0f0f10;
+    margin: 30px;
+    margin-top: 10px;
+} */
+.Apartment .img-box img {
+    width: 100%; 
+    transform: scale(0.8);
+    transition: .3s ease-in-out;
+    margin-top: 40px;
+    height: auto;
+}
+.Apartment .img-box img:hover{
+    transform: scale(1.2);
+}
+/* ===========================Apartment end================================== */
+
+/* ===========================Experiencz start================================== */
+.Experiencz{
+    background: #13151b;;
+
+}
+.Experiencz .container-fluid .row .col-lg-6 .caption h2{font-size: 65px; font-weight: 300; color: #fff;}
+.Experiencz .container-fluid .row .col-lg-6 .caption .my-word-1{font-size: 16px; color: #e9b94b;}
+
+.Experiencz .container-fluid .row .col-lg-6 .caption .my-word{font-size: 16px; color: #fff; line-height: 46px;}
+.Experiencz .container-fluid .row .col-lg-6 .caption a{
+    text-decoration: none; 
+    border: 1px solid #e9b94b; 
+    padding: 15px 52px;
+    color: #c7c7c7;
+}
+.Experiencz .container-fluid .row .col-lg-6 .caption a:hover{
+    background: rgb(152, 131, 86);
+    color: #fff;
+
+}
+.Experiencz .container-fluid .row .edit-color{
+    background: rgba(48, 58, 48, 0.845);
+    padding: 70px;
+    margin-bottom: -60px;
+}
+/* ===========================Experiencz end===================================== */
+
+/* ===========================perfect end===================================== */
+.perfect {background: #13151b; padding: 60px;}
+.perfect .container-fluid .row .col-lg-6 .my-word{
+    font-size: 16px; 
+    color: #fff; 
+    line-height: 46px;
+}
+.perfect .container-fluid .row .col-lg-6 .my-word-1{font-size: 16px; color: #e9b94b;}
+.perfect .container-fluid .row .col-lg-6 a{
+    text-decoration: none; 
+    border: 1px solid #e9b94b; 
+    padding: 15px 52px;
+    color: #c7c7c7;
+}
+.perfect .container-fluid .row .col-lg-6 a:hover{
+    background: rgb(152, 131, 86);
+    color: #fff;
+
+}
+.perfect .container-fluid .row .col-lg-6 .img-box{
+    margin-left: 60px;
+}
+.perfect .container-fluid .row .col-lg-6 .img-box img{
+    margin-top: -80px;
+    width: 599px;
+}
+
+.perfect .container-fluid .row  .text-color-bg{
+    background: #000;
+ 
+}
+.perfect .container-fluid .row  .text-color-bg1{
+    background: #000;
+    margin-top: -60px;
+
+
+}
+.perfect .container-fluid .row  .text-color-bg2{
+    margin-top: -60px;
+}
+
+.perfect .container-fluid .row  .text-color-bg2{
+    margin-top: -60px;
+}
+.perfect .container-fluid .row  .text-color-bg2{
+    margin-top: -60px;
+}
+
+.perfect .container-fluid .row  .text-color-bg p{
+    font-size: 16px; 
+    color: #e9b94b;
+}
+.perfect .container-fluid .row  .text-color-bg .text-change{
+    color: #dbdbdb; 
+    font-size: 16px; 
+    font-weight: 300;
+}
+.perfect .container-fluid .row  .text-color-bg h1{
+    font-size: 46px; 
+    font-weight: 300; 
+    color: #fff;
+}
+.perfect .container-fluid .row  .text-color-bg .my-btn{
+    text-decoration: none; 
+    border: 1px solid #e9b94b; 
+    padding: 8px 23px;
+    color: #c7c7c7;
+    font-size: 12px;
+}
+.perfect .container-fluid .row  .text-color-bg1 p{font-size: 16px; color: #e9b94b;}
+.perfect .container-fluid .row  .text-color-bg1 .text-change{color: #dbdbdb; font-size: 16px; font-weight: 300;}
+.perfect .container-fluid .row  .text-color-bg1 h1{font-size: 46px; font-weight: 300; color: #fff;}
+.perfect .container-fluid .row  .text-color-bg1 .my-btn{
+    text-decoration: none; 
+    border: 1px solid #e9b94b; 
+    padding: 8px 23px;
+    color: #c7c7c7;
+    font-size: 12px;
+}
+.perfect .container-fluid .row  .text-color-bg4{ background: #000;}
+.perfect .container-fluid .row  .text-color-bg4 p{font-size: 16px; color: #e9b94b;}
+.perfect .container-fluid .row  .text-color-bg4 .text-change{color: #dbdbdb; font-size: 16px; font-weight: 300;}
+.perfect .container-fluid .row  .text-color-bg4 h1{font-size: 46px; font-weight: 300; color: #fff;}
+.perfect .container-fluid .row  .text-color-bg4 .my-btn{
+    text-decoration: none; 
+    border: 1px solid #e9b94b; 
+    padding: 8px 23px;
+    color: #c7c7c7;
+    font-size: 12px;
+}
+.perfect .container-fluid .row  .text-color-bg4{
+    margin-top: -60px;
+}
+.perfect .container-fluid .row  .text-color-bg3{
+    margin-top: -60px;
+}
+/* ===========================perfect end===================================== */
+
+/* ===========================guests start===================================== */
+.guests .col-lg-6{
+    position: absolute;
+    margin-top: -550px;
+}
+.guests .col-lg-6 p{
+    font-size: 16px; color: #e9b94b;
+}
+.guests .col-lg-6 h1{
+    font-size: 46px; 
+    font-weight: 300; 
+    color: #fff;
+}
+.guests2 .col-lg-6{background: rgba(48, 58, 48, 0.845) ;}
+.guests2 .col-lg-6 h1{
+    font-size: 36px;
+    font-weight: 350;
+}
+.guests2{background: rgba(48, 58, 48, 0.845)}
+.guests2 .container-fluid .row .col-lg-6 .img-box1 img{
+    width: 100%;
+    height: 460px;
+}
+
+/* ============================guests end====================================== */
+
+/* ============================Discover start====================================== */
+.Discover{
+    background: #13151b;
+}
+.Discover .col-lg-4{
+    box-shadow: rgba(21, 35, 33, 0.25) 0px 50px 100px -20px, rgba(33, 48, 45, 0.467) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.Discover .caption3 .color-text{color: #e9b94b; font-size: 14px;}
+.Discover .caption3 h1{
+    font-weight: 300;
+    font-size: 27px;
+}
+.Discover .caption3 p{
+    color: #c7c7c7;
+    font-size: 16px;
+}
+.Discover .caption3 a{
+    text-decoration: underline;
+    color: #e9b94b;
+    font-size: 15px;
+
+}
+.Discover .col-lg-4 .img-box2{
+    border: 1px solid #e9b94b;
+}
+/* ==============================Discover end====================================== */
+
+/* ==============================footer start====================================== */
+.footer .col-lg-6 .caption4 p{
+    font-size: 14px;
+    color: #e9b94b;
+}
+.footer .col-lg-6 .caption4 h1{
+    font-size: 46px;
+    font-weight: 350;
+}
+.footer{
+    background: #13151b;
+}
+/* ==============================footer end====================================== */
